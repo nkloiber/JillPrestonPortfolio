@@ -1,3 +1,16 @@
+:root {
+    --jp-primaryColor: rgb(245, 170, 193);
+    --jp-secondaryColor: #A86378;
+    --formFocusColor: var(--jp-secondaryColor);
+    --formfocusShadowColor: rgba(255, 100, 172, 0.5);
+
+}
+
+.form-control:focus {
+    border-color: var(--formFocusColor);
+    box-shadow: 0 0 0 .25rem var(--formfocusShadowColor);
+}
+
 .sticky-nav {
     position: fixed;
     left: 0;
